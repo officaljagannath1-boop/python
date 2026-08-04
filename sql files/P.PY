@@ -1,0 +1,8 @@
+import mysql.connector
+HOST="LOCAL HOST"
+USER="USER"
+PASSWORD="ROOT"
+
+
+
+print("COONECTEN SUCCESFULL")

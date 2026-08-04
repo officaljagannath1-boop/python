@@ -1,0 +1,2 @@
+import FRIST
+FRIST.sum()

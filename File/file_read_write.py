@@ -1,0 +1,6 @@
+f=open("jp.txt","w",)
+st=input("write in jp.txt file :")
+f.write(st)
+f=open("jp.txt","r")
+print("\nprinting data of jp.txt >> ",f.read())
+f.close()
