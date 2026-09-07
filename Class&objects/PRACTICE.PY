@@ -8,7 +8,6 @@ class Student:
     def display_info(self):
         print(f"Name: {self.name}, Age: {self.age}, Grade: {self.grade}")
 
-# Create objects for 100 students
 students = []
 i = int(input("Enter the number of students: "))
 # using for loop to create objects for each student
