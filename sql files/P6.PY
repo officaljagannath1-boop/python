@@ -13,7 +13,7 @@ cursor = conn.cursor()
 cursor.execute("CREATE DATABASE IF NOT EXISTS WATER")
 cursor.execute("USE WATER")
 cursor.execute("create table winfo")
-("id int, FRIST_NAME varchar(50),LAST_NAME varchar(20),EMAIL varchar(30),DATE_OF_BIRTH date);")
+(("""id int, FRIST_NAME varchar(50),LAST_NAME varchar(20),EMAIL varchar(30),DATE_OF_BIRTH date);"""))
 
 cursor.execute("insert into winfo values")
 
